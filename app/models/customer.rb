@@ -5,4 +5,4 @@ class Customer < ActiveRecord::Base
   include Elasticsearch::Model::Callbacks
 end
 
-Customer.import
+Customer.import force: true
