@@ -1,0 +1,15 @@
+<%= form_for search_path, method: :get do |f| %>
+  <div>
+  <%= f.label "search for" %>
+  <%= text_field_tag :q, params[:q] %>
+  <%= submit_tag "Go", name: nil %>
+  </div>
+<% end %> 
+
+<% @customers.each do |customer| %>
+  <li>
+    <p>
+      <%= link_to customer.name, controller: "customers", action: "show", id: customer._id%>
+    </p>
+  </li>
+<% end %>
