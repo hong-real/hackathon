@@ -1,0 +1,144 @@
+ 1356  which java
+ 1357  ls -l /usr/bin/java
+ 1358  ls -l /etc/alternatives/java
+ 1359  ls -l /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java
+ 1360  vim .bashrc
+ 1361  source .bashrc
+ 1362  echo $JAVA_HOME
+ 1363  ls /usr/lib/jvm/java-7-openjdk-amd64
+ 1364  ls
+ 1365  cd Downloads/
+ 1366  ls
+ 1367  curl -L -O https://download.elastic.co/elasticsearch/release/org/elasticsearch/distribution/tar/elasticsearch/2.3.1/elasticsearch-2.3.1.tar.gz
+ 1368  ls
+ 1369  tar -zxvf elasticsearch-2.3.1.tar.gz 
+ 1370  ls
+ 1371  cd elasticsearch-2.3.1/bin/
+ 1372  ls
+ 1373  ./elasticsearch
+ 1374  apt-cache search elasticsearch
+ 1375  ls
+ 1376  ./elasticsearch
+ 1377  history | cat -20
+ 1378  history | cat -n 20
+ 1379  history | less
+ 1380  history | tail -n 30
+ 1381  cd 
+ 1382  cd workspace/rails-ws/hackathon/
+ 1383  echo ~/Downloads/elasticsearch-2.3.1/bin
+ 1384  history | tail -n 30
+ 1385  history | tail -n 30 >> commands.txt 
+ 1382  cd ..
+ 1383  ls
+ 1384  cd hackathon/
+ 1385  bin/rails s
+ 1386  bin/rails s --help
+ 1387  bin/rails s --port-80
+ 1388  bin/rails s --port=80
+ 1389  bin/rails s --port=8080
+ 1390  bin/rails s -b 0.0.0.0
+ 1391  bin/rake db:migrate
+ 1392  bin/rails s -b 0.0.0.0
+ 1393  bin/rails s
+ 1394  http_proxy=""
+ 1395  https_proxy=""
+ 1396  bin/rails s
+ 1397  bin/rails s -b 0.0.0.0
+ 1398  bin/rails s -b 0.0.0.0 -e production
+ 1399  bundle install
+ 1400  bin/rails s -b 0.0.0.0 -e production
+ 1401  bin/rake db:create
+ 1402  bin/rake db:create RAILS_ENV=production
+ 1403  RAILS_ENV=production bin/rake db:create 
+ 1404  RAILS_ENV=production bin/rake db:create db:schema:load
+ 1405  https_proxy=""
+ 1406  http_proxy=""
+ 1407  RAILS_ENV=production bin/rake db:create db:schema:load
+ 1408  bin/rails s -b 0.0.0.0 -e production
+ 1409  bin/rails s -b 0.0.0.0 
+ 1410  history | tail -n 30
+ 1411  history | tail -n 30 >> commands.txt 
+ 1382  ri Elasticsearch::Transport::Client
+ 1383  curl -x "" http://localhost:9200?pretty
+ 1384  env
+ 1385  env | grep -i proxy
+ 1386  vim ~/.bashrc
+ 1387  cat ~/.bashrc-self 
+ 1388  env | grep -i proxy
+ 1389  bin/rails g migration AddColumnsToCustomer
+ 1390  ri ActiveRecord::Migration
+ 1391  bin/rake db:migrate
+ 1392  apt-cache search hana
+ 1393  which mysql
+ 1394  hostname
+ 1395  hostname -f
+ 1396  sudo apt-get update
+ 1397  sudo apt-get upgrade
+ 1398  sudo apt-get install mysql-server
+ 1399  mysql -u root -p
+ 1400  ps -ef | grep mysql
+ 1401  sudo apt-get install  mysql-client libmysqlclient-dev
+ 1402  mysql --version
+ 1403  bin/rails server --help
+ 1404  bundle install
+ 1405  bin/rails s --help
+ 1406  bin/rails s -b 0.0.0.0 -e production
+ 1407  bundle install
+ 1408  bin/rails s -b 0.0.0.0 -e production
+ 1409  mysql -u root -p
+ 1410  history | tail -n 30
+ 1411  history | tail -n 30 >> commands.txt 
+ 1331  cd VMware\ Tools/
+ 1332  ls
+ 1333  tar -zxvf VMwareTools-9.9.2-2496486.tar.gz 
+ 1334  pwd
+ 1335  exit
+ 1336  ls
+ 1337  cd .
+ 1338  cd ..
+ 1339  ls
+ 1340  rm -rf hackathon-team-hong-finley/
+ 1341  git st
+ 1342  git clone https://github.com/hong-real/hackathon.git
+ 1343  cd hackathon/
+ 1344  git st
+ 1345  bundle install
+ 1346  git st
+ 1347  bin/rake db:migrate
+ 1348  vim
+ 1349  history | tail -n 30
+ 1350  history | tail -n 20 >> commands.txt 
+ 1321  cd mnt/
+ 1322  ls
+ 1323  cd hgfs/
+ 1324  ls
+ 1325  cd /
+ 1326  ls
+ 1327  cd media/
+ 1328  ls
+ 1329  cd hong/
+ 1330  ls
+ 1331  cd VMware\ Tools/
+ 1332  ls
+ 1333  tar -zxvf VMwareTools-9.9.2-2496486.tar.gz 
+ 1334  pwd
+ 1335  exit
+ 1336  ifconfig
+ 1337  which iptables
+ 1338  sudo iptables -L
+ 1339  sudo iptables -L -n -v
+ 1340  exit
+ 1341  cd ..
+ 1342  ls
+ 1343  find . -name elasticsearch.yml
+ 1344  vim elasticsearch.yml
+ 1345  cd config/
+ 1346  ls
+ 1347  vim elasticsearch.yml 
+ 1348  history | less
+ 1349  history | tail -n 30
+ 1350  history | tail -n 30 >> ~/workspace/rails-ws/hackathon/commands.txt 
+
+
+
+ 

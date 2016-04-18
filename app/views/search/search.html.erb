@@ -1,7 +1,11 @@
 <%= form_for search_path, method: :get do |f| %>
   <div>
   <%= f.label "search for" %>
-  <%= text_field_tag :q, params[:q] %>
+  <%= text_field_tag :q, params[:q] %> <br>
+  <%= f.label "result size" %>
+  <%= text_field_tag :size, params[:size] %> <br>
+  <%= f.label "search from" %>
+  <%= text_field_tag :from, params[:from] %>
   <%= submit_tag "Go", name: nil %>
   </div>
 <% end %> 
@@ -9,7 +13,29 @@
 <% @customers.each do |customer| %>
   <li>
     <p>
-    <%= link_to customer.name, controller: "customers", action: "show", id: customer._id%>, <%= customer.mobile_number %>
+    <%= link_to customer.first_name, controller: "customers", action: "show", id: customer._id%>, 
+    <span> <%= customer.last_name %>, </span>
+    <span> <%= customer.email %>, </span>
+    <span> <%= customer.mobile_number %>, </span>
+    <span> <%= customer.address %>, </span>
+    <span> <%= customer.postcode %>, </span>
+    <span> <%= customer.age_group %>, </span>
+    <span> <%= customer.gender %>, </span>
+    <span> <%= customer.incoming_group %>, </span>
+    <span> <%= customer.houseowner %>, </span>
+    <span> <%= customer.profession %>, </span>
+    <span> <%= customer.colleage_degree %>, </span>
+    <span> <%= customer.marrage_status %>, </span>
+    <span> <%= customer.has_children %>, </span>
+    <span> <%= customer.deal_seek %>, </span>
+    <span> <%= customer.apple_fan %>, </span>
+    <span> <%= customer.oversea_buyer %>, </span>
+    <span> <%= customer.preferred_brand %>, </span>
+    <span> <%= customer.payment_type %>, </span>
+    <span> <%= customer.faviourate_category %>, </span>
+    <span> <%= customer.frequence_to_buy %>, </span>
+    <span> <%= customer.average_spend %>, </span>
+    <span> <%= customer.wechat_id %>, </span>
     </p>
   </li>
 <% end %>
